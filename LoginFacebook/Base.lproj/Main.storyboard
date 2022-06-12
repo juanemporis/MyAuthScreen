@@ -65,7 +65,7 @@
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y0Q-ps-oPA">
                                 <rect key="frame" x="20" y="797" width="378" height="44"/>
-                                <color key="backgroundColor" red="0.40203088912566343" green="0.71459074221448249" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="44" id="Rjw-wR-CYN"/>
                                 </constraints>
@@ -145,6 +145,19 @@
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="myb-sb-lx3" secondAttribute="trailing" constant="16" id="vnb-gh-xJ2"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="bottomLineView" destination="jr3-x4-HxP" id="4qh-d7-aU4"/>
+                        <outlet property="createAccountButton" destination="Y0Q-ps-oPA" id="yQ2-9K-RwO"/>
+                        <outlet property="forgottenPasswordButton" destination="Wwl-He-hGH" id="f5v-fB-mW4"/>
+                        <outlet property="headerImageView" destination="iaT-Tq-Xkr" id="iq3-TA-ulK"/>
+                        <outlet property="initSessionButton" destination="wGn-VH-fQU" id="OMk-qW-HRy"/>
+                        <outlet property="loginDataLineView" destination="wst-q2-g8S" id="bdV-Oh-h6x"/>
+                        <outlet property="loginDataView" destination="myb-sb-lx3" id="CM9-iH-aWR"/>
+                        <outlet property="logoImageView" destination="gdh-uk-HMu" id="MqX-1h-amB"/>
+                        <outlet property="orLabel" destination="2gf-aF-KAZ" id="kCy-5v-cfj"/>
+                        <outlet property="passwordTextField" destination="D13-GM-jK6" id="zMA-Or-TYL"/>
+                        <outlet property="userTextField" destination="Spa-5h-X6T" id="5NF-Hw-Axt"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
