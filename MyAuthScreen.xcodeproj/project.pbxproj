@@ -36,7 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		DB4B90B12855D45A00CE298A /* LoginFacebook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoginFacebook.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB4B90B12855D45A00CE298A /* MyAuthScreen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyAuthScreen.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB4B90B42855D45A00CE298A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DB4B90B62855D45A00CE298A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		DB4B90B82855D45A00CE298A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -44,9 +44,9 @@
 		DB4B90BD2855D45C00CE298A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DB4B90C02855D45C00CE298A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DB4B90C22855D45C00CE298A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DB4B90C72855D45C00CE298A /* LoginFacebookTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoginFacebookTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB4B90C72855D45C00CE298A /* MyAuthScreenTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyAuthScreenTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB4B90CB2855D45C00CE298A /* LoginFacebookTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginFacebookTests.swift; sourceTree = "<group>"; };
-		DB4B90D12855D45C00CE298A /* LoginFacebookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoginFacebookUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB4B90D12855D45C00CE298A /* MyAuthScreenUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyAuthScreenUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB4B90D52855D45C00CE298A /* LoginFacebookUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginFacebookUITests.swift; sourceTree = "<group>"; };
 		DB4B90D72855D45C00CE298A /* LoginFacebookUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginFacebookUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -89,9 +89,9 @@
 		DB4B90B22855D45A00CE298A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DB4B90B12855D45A00CE298A /* LoginFacebook.app */,
-				DB4B90C72855D45C00CE298A /* LoginFacebookTests.xctest */,
-				DB4B90D12855D45C00CE298A /* LoginFacebookUITests.xctest */,
+				DB4B90B12855D45A00CE298A /* MyAuthScreen.app */,
+				DB4B90C72855D45C00CE298A /* MyAuthScreenTests.xctest */,
+				DB4B90D12855D45C00CE298A /* MyAuthScreenUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -130,9 +130,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		DB4B90B02855D45A00CE298A /* LoginFacebook */ = {
+		DB4B90B02855D45A00CE298A /* MyAuthScreen */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DB4B90DB2855D45C00CE298A /* Build configuration list for PBXNativeTarget "LoginFacebook" */;
+			buildConfigurationList = DB4B90DB2855D45C00CE298A /* Build configuration list for PBXNativeTarget "MyAuthScreen" */;
 			buildPhases = (
 				DB4B90AD2855D45A00CE298A /* Sources */,
 				DB4B90AE2855D45A00CE298A /* Frameworks */,
@@ -142,14 +142,14 @@
 			);
 			dependencies = (
 			);
-			name = LoginFacebook;
+			name = MyAuthScreen;
 			productName = LoginFacebook;
-			productReference = DB4B90B12855D45A00CE298A /* LoginFacebook.app */;
+			productReference = DB4B90B12855D45A00CE298A /* MyAuthScreen.app */;
 			productType = "com.apple.product-type.application";
 		};
-		DB4B90C62855D45C00CE298A /* LoginFacebookTests */ = {
+		DB4B90C62855D45C00CE298A /* MyAuthScreenTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DB4B90DE2855D45C00CE298A /* Build configuration list for PBXNativeTarget "LoginFacebookTests" */;
+			buildConfigurationList = DB4B90DE2855D45C00CE298A /* Build configuration list for PBXNativeTarget "MyAuthScreenTests" */;
 			buildPhases = (
 				DB4B90C32855D45C00CE298A /* Sources */,
 				DB4B90C42855D45C00CE298A /* Frameworks */,
@@ -160,14 +160,14 @@
 			dependencies = (
 				DB4B90C92855D45C00CE298A /* PBXTargetDependency */,
 			);
-			name = LoginFacebookTests;
+			name = MyAuthScreenTests;
 			productName = LoginFacebookTests;
-			productReference = DB4B90C72855D45C00CE298A /* LoginFacebookTests.xctest */;
+			productReference = DB4B90C72855D45C00CE298A /* MyAuthScreenTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		DB4B90D02855D45C00CE298A /* LoginFacebookUITests */ = {
+		DB4B90D02855D45C00CE298A /* MyAuthScreenUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DB4B90E12855D45C00CE298A /* Build configuration list for PBXNativeTarget "LoginFacebookUITests" */;
+			buildConfigurationList = DB4B90E12855D45C00CE298A /* Build configuration list for PBXNativeTarget "MyAuthScreenUITests" */;
 			buildPhases = (
 				DB4B90CD2855D45C00CE298A /* Sources */,
 				DB4B90CE2855D45C00CE298A /* Frameworks */,
@@ -178,9 +178,9 @@
 			dependencies = (
 				DB4B90D32855D45C00CE298A /* PBXTargetDependency */,
 			);
-			name = LoginFacebookUITests;
+			name = MyAuthScreenUITests;
 			productName = LoginFacebookUITests;
-			productReference = DB4B90D12855D45C00CE298A /* LoginFacebookUITests.xctest */;
+			productReference = DB4B90D12855D45C00CE298A /* MyAuthScreenUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -206,7 +206,7 @@
 					};
 				};
 			};
-			buildConfigurationList = DB4B90AC2855D45A00CE298A /* Build configuration list for PBXProject "LoginFacebook" */;
+			buildConfigurationList = DB4B90AC2855D45A00CE298A /* Build configuration list for PBXProject "MyAuthScreen" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -219,9 +219,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				DB4B90B02855D45A00CE298A /* LoginFacebook */,
-				DB4B90C62855D45C00CE298A /* LoginFacebookTests */,
-				DB4B90D02855D45C00CE298A /* LoginFacebookUITests */,
+				DB4B90B02855D45A00CE298A /* MyAuthScreen */,
+				DB4B90C62855D45C00CE298A /* MyAuthScreenTests */,
+				DB4B90D02855D45C00CE298A /* MyAuthScreenUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -286,12 +286,12 @@
 /* Begin PBXTargetDependency section */
 		DB4B90C92855D45C00CE298A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = DB4B90B02855D45A00CE298A /* LoginFacebook */;
+			target = DB4B90B02855D45A00CE298A /* MyAuthScreen */;
 			targetProxy = DB4B90C82855D45C00CE298A /* PBXContainerItemProxy */;
 		};
 		DB4B90D32855D45C00CE298A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = DB4B90B02855D45A00CE298A /* LoginFacebook */;
+			target = DB4B90B02855D45A00CE298A /* MyAuthScreen */;
 			targetProxy = DB4B90D22855D45C00CE298A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -499,7 +499,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LoginFacebook.app/LoginFacebook";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyAuthScreen.app/MyAuthScreen";
 			};
 			name = Debug;
 		};
@@ -518,7 +518,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LoginFacebook.app/LoginFacebook";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyAuthScreen.app/MyAuthScreen";
 			};
 			name = Release;
 		};
@@ -559,7 +559,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		DB4B90AC2855D45A00CE298A /* Build configuration list for PBXProject "LoginFacebook" */ = {
+		DB4B90AC2855D45A00CE298A /* Build configuration list for PBXProject "MyAuthScreen" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DB4B90D92855D45C00CE298A /* Debug */,
@@ -568,7 +568,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DB4B90DB2855D45C00CE298A /* Build configuration list for PBXNativeTarget "LoginFacebook" */ = {
+		DB4B90DB2855D45C00CE298A /* Build configuration list for PBXNativeTarget "MyAuthScreen" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DB4B90DC2855D45C00CE298A /* Debug */,
@@ -577,7 +577,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DB4B90DE2855D45C00CE298A /* Build configuration list for PBXNativeTarget "LoginFacebookTests" */ = {
+		DB4B90DE2855D45C00CE298A /* Build configuration list for PBXNativeTarget "MyAuthScreenTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DB4B90DF2855D45C00CE298A /* Debug */,
@@ -586,7 +586,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DB4B90E12855D45C00CE298A /* Build configuration list for PBXNativeTarget "LoginFacebookUITests" */ = {
+		DB4B90E12855D45C00CE298A /* Build configuration list for PBXNativeTarget "MyAuthScreenUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DB4B90E22855D45C00CE298A /* Debug */,
